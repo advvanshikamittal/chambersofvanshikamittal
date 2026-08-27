@@ -6,7 +6,12 @@ import logo from "./../../pictures/logo.png"
 
 export const metadata = {
   title: "Chambers of Vanshika Mittal | Legal Services",
-  description: "Legal services and insights by Chambers of Vanshika Mittal."
+  description: "Legal services and insights by Chambers of Vanshika Mittal.",
+  metadataBase: new URL("https://www.chambersofvanshikamittal.in"),
+  openGraph: {
+    url: "https://www.chambersofvanshikamittal.in",
+    siteName: "Chambers of Vanshika Mittal",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -58,7 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
             <div style={{ marginTop: 15, marginBottom: 20, textAlign: "center" }}>
             © {currentYear} Chambers of Vanshika Mittal. All rights reserved. <br />
-            Designed by <a href="https://www.linkedin.com/in/akanshi-mittal" target="_blank" rel="noopener noreferrer">Akanshi Mittal</a>
+            Made with ❤️ by <a href="https://www.linkedin.com/in/akanshi-mittal" target="_blank" rel="noopener noreferrer">Akanshi Mittal</a>
             </div>
           </footer>
         </div>

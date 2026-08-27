@@ -286,9 +286,11 @@ a:hover { text-decoration: underline; }
   grid-column: span 12;
 }
 
-.blog-hero {
-  text-align: center;
-  padding: 48px 16px 32px;
+.blog-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 16px 16px 8px;
 }
 
 .blog-list {
@@ -365,11 +367,6 @@ a:hover { text-decoration: underline; }
   background: #fff;
 }
 
-.pdf-download {
-  display: inline-block;
-  text-decoration: none;
-}
-
 @media (max-width: 720px) {
   .card { grid-column: span 12; }
   .h1 { font-size: 34px; }
@@ -392,18 +389,6 @@ a:hover { text-decoration: underline; }
   .footer-info > div {
     text-align: left !important;
   }
-}
-
-.badge {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 10px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  color: var(--muted);
-  font-size: 12px;
-  gap: 8px;
-  margin-top: 10px;
 }
 
 .hr {
@@ -525,14 +510,6 @@ a:hover { text-decoration: underline; }
   margin: 0;
   color: var(--muted);
   line-height: 1.6;
-}
-
-.terms-kicker {
-  font-size: 11px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--brand);
-  font-weight: 700;
 }
 
 .terms-actions {
