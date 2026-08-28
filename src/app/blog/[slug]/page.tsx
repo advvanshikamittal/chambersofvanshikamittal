@@ -18,7 +18,7 @@ export default async function BlogPostPage({ params }: Props) {
   const post = posts.find((p) => p.slug === slug);
   if (!post) notFound();
 
-  const pdfUrl = `/blog-pdfs/${post.pdf}`;
+  const pdfUrl = `/pdfs/${post.fileName}`;
 
   return (
     <div className="blog-post-page">

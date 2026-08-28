@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
+export const runtime = "edge";
+
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
@@ -12,7 +14,7 @@ export async function POST(req: NextRequest) {
     }
 
     const { error } = await resend.emails.send({
-      from: "Contact Form <onboarding@resend.dev>",
+      from: "Contact Form <no-reply@chambersofvanshikamittal.com>",
       replyTo: email,
       to: process.env.CONTACT_EMAIL ?? "adv.vanshikamittal@gmail.com",
       subject: `Contact Form: ${topic || "General Enquiry"} - ${name}`,
