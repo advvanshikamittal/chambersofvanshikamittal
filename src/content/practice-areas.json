@@ -1,0 +1,66 @@
+[
+  { 
+    "title": "Civil & Commercial Litigation",
+    "summary": "Contracts, Commercial Disputes, Recovery & Damages"
+  },
+  { 
+    "title": "Constitutional Law & Writs",
+    "summary": "Fundamental Rights, Constitutional Remedies & Public Law"
+  },
+  { 
+    "title": "Consumer Protection & Consumer Disputes",
+    "summary": "Consumer Complaints, Defences & Litigation"
+  },
+  { 
+    "title": "Corporate & Commercial Advisory",
+    "summary": "Company Law Matters, Advisory, Compliance & Transactions"
+  },
+  { 
+    "title": "Criminal Litigation & Disputes",
+    "summary": "Bail, Criminal Complaints, Trials & Appeals"
+  },
+  { 
+    "title": "Environmental Law & NGT Matters",
+    "summary": "Environmental Compliance, NGT Litigation & Advisory"
+  },
+  { 
+    "title": "Family & Matrimonial Law",
+    "summary": "Hindu Law, Divorce, Maintenance, Custody & Succession"
+  },
+  { 
+    "title": "Intellectual Property Rights (IPR)",
+    "summary": "Trademarks, Copyright, Patents & Related Matters"
+  },
+  { 
+    "title": "Labour & Employment Law",
+    "summary": "Service Matters, Industrial Disputes, Compliance & Advisory"
+  },
+  { 
+    "title": "Legal Drafting & Documentation",
+    "summary": "Agreements, Contracts, Petitions, Applications & Pleadings"
+  },
+  { 
+    "title": "Legal Notices & Dispute Resolution",
+    "summary": "Legal Notices, Replies, Settlements & Alternative Dispute Resolution"
+  },
+  { 
+    "title": "Medical Negligence, Healthcare Law & Consumer Protection",
+    "summary": "Medical Negligence, Patient Rights, Healthcare Disputes & Consumer Litigation"
+  },
+  { 
+    "title": "Pro Bono & Public Interest Litigation",
+    "summary": "Public Interest Litigation, Constitutional Remedies, Fundamental Rights & Access to Justice"
+  },
+  { 
+    "title": "Property & Real Estate Law",
+    "summary": "Property Disputes, Title, Possession, Partition & Documentation"
+  },
+  { 
+    "title": "Taxation & Revenue Matters",
+    "summary": "Income Tax & GST matters, Assessments, Appeals & Litigation"
+  },
+  { 
+    "title": "Tribunal & Appellate Litigation",
+    "summary": "NGT, NCLAT, NCLT, DRT & Other Tribunals"
+  }
+]

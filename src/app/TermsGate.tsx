@@ -54,9 +54,9 @@ export default function TermsGate({ children }: TermsGateProps) {
                 <li>There has been no form of solicitation, advertisement, or inducement by Chambers of Vanshika Mittal or its members.</li>
             </ul>
             <p>
-              This website is intended solely for informational purposes and Should not be construed as providing legal advice under any circumstances. 
-              No material or information provided on this website should be interpreted as legal counsel.
-              Chambers of Vanshika Mittal should not be liable for any consequences arising from actions taken by relying on the material/information provided on this website.<br />
+              This website is intended solely for informational purposes and should not be construed as providing legal advice under any circumstances. 
+              No material or information provided on this website should be interpreted as legal advice.
+              Chambers of Vanshika Mittal shall not be liable for any consequences arising from actions taken by relying on the material/information provided on this website.<br />
               All content, information, and materials available on this website are the intellectual property of Chambers of Vanshika Mittal.
             </p>
             <div className="terms-actions">

@@ -20,13 +20,13 @@ export default function HomePage() {
         </div>
         <div style={{ marginLeft: 16, marginRight: 16 }}>
           <p>
-            This chamber is led by <strong>Vanshika Mittal</strong>, enrolled with the Bar Council of Delhi.
-            The chamber brings dedicated expertise to high-stakes legal matters. 
-            With consistent practice before the Hon'ble Supreme Court of India, Delhi High Court, and various specialized tribunals such as NGT and NCLAT, the chamber combines rigorous legal analysis with strategic advocacy.
+            Chambers of Vanshika Mittal is led by Vanshika Mittal, an advocate enrolled with the Bar Council of Delhi, practising before the Hon’ble Supreme Court of India, Delhi High Court, NGT and NCLAT.
           </p>
           <p> 
-            The chamber practices in civil, criminal, and constitutional law, enabling it to navigate complex jurisdictional and procedural landscapes. 
-            As a member of both the Supreme Court Bar Association (SCBA) and Delhi High Court Bar Association (DHCBA), the chamber remains actively engaged with the legal community and committed to professional excellence.
+            The Chamber handles civil, criminal, and constitutional matters, and provides legal services including legal advice, drafting and vetting of agreements and other legal documents, legal notices, opinions, pleadings, and representation before courts and tribunals. With an emphasis on rigorous legal research, strategic preparation, and effective advocacy, the Chamber approaches each matter with careful attention to its legal and factual complexities. 
+          </p>
+          <p>
+            Vanshika Mittal is a member of the Supreme Court Bar Association (SCBA) and Delhi High Court Bar Association (DHCBA), with published work in reputed legal journals.
           </p>
         </div>
       </section>

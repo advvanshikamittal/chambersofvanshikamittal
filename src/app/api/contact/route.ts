@@ -14,9 +14,9 @@ export async function POST(req: NextRequest) {
     }
 
     const { error } = await resend.emails.send({
-      from: "Contact Form <no-reply@chambersofvanshikamittal.com>",
+      from: "Contact Form <info@chambersofvanshikamittal.com>",
       replyTo: email,
-      to: process.env.CONTACT_EMAIL ?? "adv.vanshikamittal@gmail.com",
+      to: process.env.CONTACT_EMAIL || "office@chambersofvanshikamittal.com",
       subject: `Contact Form: ${topic || "General Enquiry"} - ${name}`,
       text: [
         `Name: ${name}`,

@@ -1,74 +1,65 @@
 [
   {
-    "slug": "state-of-punjab-vs-davinder-singh",
     "title": "State of Punjab vs. Davinder Singh",
-    "date": "21 April 2026",
     "summary": "Supreme Court; Civil Appeal No. 2317 of 2011; 2024 INSC 562",
     "fileName": "davinder-singh.pdf",
-    "caseYear": 2024
+    "caseYear": 2024,
+    "practiceArea": ["Constitutional Law & Writs", "Labour & Employment Law"]
   },
   {
-    "slug": "all-india-judges",
     "title": "ALL INDIA JUDGES' ASSOCIATION AND OTHERS VS UNION OF INDIA AND OTHERS",
-    "date": "21 April 2026",
     "summary": "Supreme Court; WP(C) No. 1022 of 1989; 2025 INSC 735",
     "fileName": "all-india-judges.pdf",
-    "caseYear": 2025
+    "caseYear": 2025,
+    "practiceArea": ["Constitutional Law & Writs"]
   },
   {
-    "slug": "dr-kavita-kamboj-vs-high-court-of-punjab-and-haryana-ors",
     "title": "DR. KAVITA KAMBOJ VS. HIGH COURT OF PUNJAB AND HARYANA & ORS.",
-    "date": "21 April 2026",
     "summary": "Supreme Court; Civil Appeal Nos. 2179-2180 of 2024; 2024 INSC 192",
     "fileName": "dr-kavita-kamboj.pdf",
-    "caseYear": 2024
+    "caseYear": 2024,
+    "practiceArea": ["Constitutional Law & Writs", "Labour & Employment Law"]
   },
   {
-    "slug": "electoral-bond-scheme",
     "title": "ASSOCIATION FOR DEMOCRATIC REFORMS (ELECTORAL BOND SCHEME) V. UNION OF INDIA",
-    "date": "21 April 2026",
     "summary": "Supreme Court;  Writ Petition (C) No. 880 of 2017, 2024 INSC 113",
     "fileName": "electoral-bond-scheme.pdf",
-    "caseYear": 2024
+    "caseYear": 2024,
+    "practiceArea": ["Constitutional Law & Writs"]
   },
   {
-    "slug": "government-of-nct-of-delhi-vs-bsk-realtors-llp",
     "title": "GOVERNMENT OF NCT OF DELHI & ANR. V. M/S BSK REALTORS LLP & ANR.",
-    "date": "21 April 2026",
     "summary": "Supreme Court; 2024 INSC 455",
     "fileName": "bsk-realtors-llp.pdf",
-    "caseYear": 2024
+    "caseYear": 2024,
+    "practiceArea": ["Property & Real Estate Law","Civil & Commercial Litigation"]
   },
   {
-    "slug": "mineral-area-development-authority-v-sail",
     "title": "Mineral Area Development Authority v. SAIL",
-    "date": "21 April 2026",
     "summary": "Supreme Court; Civil Appeal Nos. 4056-4064 of 1999; 2024 INSC 554",
     "fileName": "mineral-area-development-authority-v-sail.pdf",
-    "caseYear": 2024
+    "caseYear": 2024,
+    "practiceArea": ["Constitutional Law & Writs","Taxation & Revenue Matters"]
   },
   {
-    "slug": "property-owners-association-vs-state-of-maharashtra",
     "title": "PROPERTY OWNERS ASSOCIATION & ORS. VS. STATE OF MAHARASHTRA & ORS.",
-    "date": "21 April 2026",
     "summary": "Supreme Court; Civil Appeal No. 1012 of 2002; 2024 INSC 835",
     "fileName": "property-owners-association.pdf",
-    "caseYear": 2024
+    "caseYear": 2024,
+    "practiceArea": ["Property & Real Estate Law","Constitutional Law & Writs"]
   },
   {
-    "slug": "sita-soren-vs-union-of-india",
     "title": "Sita Soren v. Union of India",
-    "date": "21 April 2026",
     "summary": "Supreme Court; Criminal Appeal No. 451 of 2019; 2024 INSC 161",
     "fileName": "sita-soren.pdf",
-    "caseYear": 2024
+    "caseYear": 2024,
+    "practiceArea": ["Constitutional Law & Writs","Criminal Litigation & Disputes"]
   },
   {
-    "slug": "tej-prakash-pathak-vs-high-court-of-rajasthan",
     "title": "Tej Prakash Pathak v. High Court of Rajasthan",
-    "date": "21 April 2026",
     "summary": "Supreme Court; Civil Appeal No. 2634 of 2013; 2024 INSC 847",
     "fileName": "tej-prakash-pathak.pdf",
-    "caseYear": 2024
+    "caseYear": 2024,
+    "practiceArea": ["Constitutional Law & Writs","Labour & Employment Law"]
   }
 ]

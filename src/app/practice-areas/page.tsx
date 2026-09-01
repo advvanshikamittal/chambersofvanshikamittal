@@ -1,17 +1,6 @@
 import Image from "next/image"
 import books from "./../../../pictures/books.png"
-
-const areas = [
-  { title: "Civil Litigation"},
-  { title: "Criminal Advocacy"},
-  { title: "Constitutional Law & Matters"},
-  { title: "Environment Law" },
-  { title: "Labour Laws" },
-  { title: "Tribunal Representation (NGT, NCLAT, NCLT)" },
-  { title: "Legal Drafting & Pleadings" },
-  { title: "Legal Research & Analysis" },
-  { title: "Client Advisory" }
-];
+import areas from "../../content/practice-areas.json"
 
 export default function PracticeAreasPage() {
   return (
@@ -33,6 +22,7 @@ export default function PracticeAreasPage() {
         {areas.map((a) => (
           <div className="card" key={a.title}>
             <h2>{a.title}</h2>
+            <p>{a.summary}</p>
           </div>
         ))}
       </div>
