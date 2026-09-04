@@ -1,7 +1,19 @@
 import Image from "next/image"
+import type { Metadata } from "next"
 import hammer from "./../../../pictures/hammer.png"
 import posts from "../../content/blog-posts.json";
 import BlogFilter from "./BlogFilter";
+
+export const metadata: Metadata = {
+  title: "Legal Resources & Case Studies | Chambers of Vanshika Mittal",
+  description: "Case studies and articles on Supreme Court and High Court judgments, curated by Chambers of Vanshika Mittal across constitutional, civil, and criminal law.",
+  alternates: { canonical: "/blog" },
+  openGraph: {
+    title: "Legal Resources & Case Studies | Chambers of Vanshika Mittal",
+    description: "Case studies and articles from the team at Chambers of Vanshika Mittal.",
+    url: "/blog",
+  },
+};
 
 export default function BlogPage() {
   return (

@@ -10,8 +10,6 @@ export default function ContactPage() {
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setStatus("sending");
-    setMsg("");
 
     const form = e.currentTarget;
     const fd = new FormData(form);
@@ -32,6 +30,25 @@ export default function ContactPage() {
       topic: String(fd.get("topic") || "").trim(),
       message: String(fd.get("message") || "").trim()
     };
+    const countryCode = String(fd.get("countryCode") || "").trim();
+    const localPhone = String(fd.get("phone") || "").trim();
+
+    if (!/^[^\s@]+@[^\s@]+\.com$/i.test(payload.email)) {
+      setStatus("error");
+      setMsg("Please enter a valid .com email address.");
+      return;
+    }
+
+    if (!/^\+\d{1,3}$/.test(countryCode) || !/^\d{10}$/.test(localPhone)) {
+      setStatus("error");
+      setMsg("Please enter a country code and a 10-digit phone number.");
+      return;
+    }
+
+    payload.phone = `${countryCode} ${localPhone}`;
+
+    setStatus("sending");
+    setMsg("");
 
     try {
       const res = await fetch("/api/contact", {
@@ -69,13 +86,45 @@ export default function ContactPage() {
 
         <label className="label">
           Email *
-          <input className="input" name="email" type="email" required maxLength={160} />
+          <input
+            className="input"
+            name="email"
+            type="email"
+            required
+            maxLength={160}
+            pattern="[^\s@]+@[^\s@]+\.com"
+            title="Enter an email address ending in .com"
+          />
         </label>
 
-        <label className="label">
-          Phone *
-          <input className="input" name="phone" required inputMode="tel" maxLength={30} />
-        </label>
+        <div className="phone-fields">
+          <label className="label">
+            Country code *
+            <input
+              className="input"
+              name="countryCode"
+              required
+              inputMode="tel"
+              maxLength={4}
+              pattern="\+\d{1,3}"
+              placeholder="+91"
+              title="Enter a country code such as +91"
+            />
+          </label>
+
+          <label className="label">
+            Phone number *
+            <input
+              className="input"
+              name="phone"
+              required
+              inputMode="numeric"
+              maxLength={10}
+              pattern="\d{10}"
+              title="Enter exactly 10 digits"
+            />
+          </label>
+        </div>
 
         <label className="label">
           Topic *

@@ -23,7 +23,7 @@ html, body {
 
 body.no-scroll { overflow: hidden; }
 
-a { color: var(--text); text-decoration: none; }
+a { color: var(--muted); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .container {
@@ -297,6 +297,7 @@ a:hover { text-decoration: underline; }
 
 .blog-post-card {
   display: block;
+  color: var(--text);
   background: rgba(17, 24, 42, 0.70);
   border: 1px solid var(--border);
   border-radius: 14px;
@@ -398,6 +399,12 @@ a:hover { text-decoration: underline; }
   color: var(--muted);
   font-weight: 600;
   font-size: 13px;
+}
+
+.phone-fields {
+  display: grid;
+  grid-template-columns: minmax(96px, 0.35fr) 1fr;
+  gap: 12px;
 }
 
 .input, .textarea {

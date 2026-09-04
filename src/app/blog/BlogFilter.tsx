@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import areas from "../../content/practice-areas.json";
 
 type Post = {
   title: string;
@@ -18,6 +17,11 @@ export default function BlogFilter({ posts }: { posts: Post[] }) {
   const years = useMemo(() => {
     const set = new Set(posts.map((p) => p.caseYear).filter(Boolean) as number[]);
     return Array.from(set).sort((a, b) => b - a);
+  }, [posts]);
+
+  const areas = useMemo(() => {
+    const set = new Set(posts.flatMap((p) => p.practiceArea ?? []));
+    return Array.from(set).sort();
   }, [posts]);
 
   const filtered = posts.filter((p) => {
@@ -49,7 +53,7 @@ export default function BlogFilter({ posts }: { posts: Post[] }) {
         >
           <option value="">All Practice Areas</option>
           {areas.map((a) => (
-            <option key={a.title} value={a.title}>{a.title}</option>
+            <option key={a} value={a}>{a}</option>
           ))}
         </select>
       </div>

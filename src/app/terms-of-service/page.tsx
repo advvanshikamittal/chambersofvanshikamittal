@@ -1,3 +1,12 @@
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Terms of Service | Chambers of Vanshika Mittal",
+  description: "Read the terms of service governing access to and use of the Chambers of Vanshika Mittal website.",
+  alternates: { canonical: "/terms-of-service" },
+  robots: { index: true, follow: true },
+};
+
 export default function TermsOfServicePage() {
   return (
     <>

@@ -1,6 +1,18 @@
 import Image from "next/image"
+import type { Metadata } from "next"
 import vanshikaProfile from "./../../../pictures/vanshika-mittal-profile.png"
 import manojProfile from "./../../../pictures/manoj-mittal-profile.png"
+
+export const metadata: Metadata = {
+  title: "Our Team | Chambers of Vanshika Mittal",
+  description: "Meet the team at Chambers of Vanshika Mittal, including founder and advocate Vanshika Mittal and legal advisor Manoj Mittal.",
+  alternates: { canonical: "/team" },
+  openGraph: {
+    title: "Our Team | Chambers of Vanshika Mittal",
+    description: "Meet the team at Chambers of Vanshika Mittal.",
+    url: "/team",
+  },
+};
 
 export default function TeamPage() {
   return (

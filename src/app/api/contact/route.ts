@@ -9,8 +9,13 @@ export async function POST(req: NextRequest) {
   try {
     const { name, email, phone, topic, message } = await req.json();
 
-    if (!name || !email || !message) {
+    if (!name || !email || !phone || !message) {
+      console.error("[contact] Missing required fields:", { name, email, phone, topic, message });
       return NextResponse.json({ error: "Missing required fields." }, { status: 400 });
+    }
+
+    if (!/^[^\s@]+@[^\s@]+\.com$/i.test(String(email).trim())) {
+      return NextResponse.json({ error: "Please enter a valid .com email address." }, { status: 400 });
     }
 
     const { error } = await resend.emails.send({
@@ -21,7 +26,7 @@ export async function POST(req: NextRequest) {
       text: [
         `Name: ${name}`,
         `Email: ${email}`,
-        `Phone: ${phone}`,
+        `Phone: ${String(phone).trim()}`,
         `Topic: ${topic}`,
         ``,
         `Message:`,

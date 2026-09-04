@@ -1,6 +1,18 @@
 import Image from "next/image"
+import type { Metadata } from "next"
 import books from "./../../../pictures/books.png"
 import areas from "../../content/practice-areas.json"
+
+export const metadata: Metadata = {
+  title: "Practice Areas | Chambers of Vanshika Mittal",
+  description: "Explore practice areas of Chambers of Vanshika Mittal, including civil & commercial litigation, constitutional law, criminal litigation, family law, IPR, and more.",
+  alternates: { canonical: "/practice-areas" },
+  openGraph: {
+    title: "Practice Areas | Chambers of Vanshika Mittal",
+    description: "Explore the core practice areas handled by Chambers of Vanshika Mittal.",
+    url: "/practice-areas",
+  },
+};
 
 export default function PracticeAreasPage() {
   return (

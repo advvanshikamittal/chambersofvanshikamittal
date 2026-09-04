@@ -1,5 +1,17 @@
 import Image from "next/image"
+import type { Metadata } from "next"
 import scale from "./../../pictures/scale.png"
+
+export const metadata: Metadata = {
+  title: "Chambers of Vanshika Mittal | Advocates in Delhi",
+  description: "Chambers of Vanshika Mittal provides legal counsel on civil, criminal, and constitutional matters before the Supreme Court of India, Delhi High Court, NGT and NCLAT.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "Chambers of Vanshika Mittal | Advocates in Delhi",
+    description: "Dedicated legal counsel for complex civil, criminal, and constitutional matters.",
+    url: "/",
+  },
+};
 
 export default function HomePage() {
   return (
